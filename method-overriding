@@ -1,2 +1,20 @@
 // Method Overriding
+// This is changing the implementation of an inherited method.
 
+// Example
+public class Shape 
+{
+    public virtual Draw()
+    {
+        // Default implementation
+        Console.WriteLine("Shape.");
+    }
+}
+
+public class Circle : Shape 
+{
+    public override Draw()
+    {
+        Console.WriteLine("Circle.");
+    }
+}
