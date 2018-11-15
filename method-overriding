@@ -4,7 +4,7 @@
 // Example
 public class Shape 
 {
-    public virtual Draw()
+    public virtual void Draw()
     {
         // Default implementation
         Console.WriteLine("Shape.");
@@ -13,7 +13,7 @@ public class Shape
 
 public class Circle : Shape 
 {
-    public override Draw()
+    public override void Draw()
     {
         Console.WriteLine("Circle.");
     }
