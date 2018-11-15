@@ -1,5 +1,13 @@
 // Method Overriding
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 // This is changing the implementation of an inherited method.
+
+// This technique allows us to achieve polymorphism. 
+// Polymorphism is a great objectoriented technique that allows us to 
+// get rid of long procedural switch statements (or conditionals).
+
+
 
 // Example
 public class Shape 
