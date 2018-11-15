@@ -18,3 +18,6 @@ public class Circle : Shape
         Console.WriteLine("Circle.");
     }
 }
+
+// Example of use
+Circle C = new Circle();
