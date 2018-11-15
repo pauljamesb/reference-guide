@@ -14,3 +14,9 @@
 
 
 // Example
+
+public abstract class Shape
+{
+    // This method doesn't have a body.
+    public abstract Draw();
+}
