@@ -20,4 +20,5 @@ public class Circle : Shape
 }
 
 // Example of use
-Circle C = new Circle();
+Circle c = new Circle();
+c.Draw();
