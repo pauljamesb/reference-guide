@@ -12,3 +12,9 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // Data (Represented by fields)
 // Behavior (Represented by methods / functions)
+
+
+
+// Object
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// Object is an instance of a class
