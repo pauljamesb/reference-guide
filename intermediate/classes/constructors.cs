@@ -38,3 +38,7 @@ public class Customer
     this.Name = name;
   }
 }
+
+// When a class has a list of objects List<Params>, the list should be initialised.
+// For example
+
