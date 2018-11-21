@@ -2,6 +2,6 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 
 // A real world application may consist of:
-// - Presentation
-// - Business Logic / Domain
-// - Data Access / Persistence
+// - Presentation (Example: PostView)
+// - Business Logic / Domain (Example: Post)
+// - Data Access / Persistence (Example: PostRepository)
