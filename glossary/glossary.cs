@@ -1,3 +1,9 @@
+// Terms which are used
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// Refactor - Means to change the code structure without altering the functionality.
+
+
+
 // Real world example of layers
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 
