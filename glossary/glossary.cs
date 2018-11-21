@@ -26,6 +26,11 @@
 
 
 
+// Constructors : Anatomy of a Class
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// This is a method of a class that is called when an instance of a class is created.
+
+
 // Object
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // Object is an instance of a class.
