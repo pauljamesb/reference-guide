@@ -1,5 +1,8 @@
-// Create an object from a string
+// Static Classes
 // +++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Create an object from a string
 // Once object "Person" for example has already being created.
 // Also have to create new "Person" first to use.
 
