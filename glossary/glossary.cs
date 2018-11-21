@@ -18,3 +18,8 @@
 // Object
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // Object is an instance of a class
+
+
+// Naming conventions
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// For Classes use Pascal
