@@ -12,6 +12,9 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // Data (Represented by fields)
 // Behavior (Represented by methods / functions)
+// Class members: 
+// Instance member - Accessible from an object
+// Static member - Accessible from the Class
 
 
 
