@@ -15,6 +15,7 @@
 // Class members: 
 // Instance member - Accessible from an object.
 // Static member - Accessible from the Class.
+// Shouldn't declare fields with the public, it maybe get and set helps with this.
 
 
 
