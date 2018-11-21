@@ -72,3 +72,13 @@
 // Integers
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // The default value of an integer is 0.
+
+
+// Strings
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// The default value of a string is null.
+
+
+// Reference types
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// The default value of a reference type is null.
