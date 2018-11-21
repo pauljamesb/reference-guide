@@ -49,6 +49,8 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // Overloading means having a method of the same name but with different signatures.
 // Essentially that take different paremeters.
+// This is to make initialiseation easier, sometimes we may know only the name for example, or the names and the age etc.
+// Essentailly to handle different types of data we may have.
 
 
 
