@@ -40,5 +40,26 @@ public class Customer
 }
 
 // When a class has a list of objects List<Params>, the list should be initialised.
-// For example
+// For example:
+public class Customer 
+{
+  public int Id;
+  public string Name;
+  public List<Orders> Orders; // Note orders class doesn't exsist in this example.
 
+  public Customer()
+  {
+    Orders = new List<Orders>();
+  }
+  
+  public Customer(int id)
+  {
+    this.Id = id;
+  }
+
+  public Customer(int id, string name)
+  {
+    this.Id = id;
+    this.Name = name;
+  }
+}
