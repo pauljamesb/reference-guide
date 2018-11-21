@@ -8,7 +8,7 @@
 
 
 
-// Anotomy of a Class
+// Anatomy of a Class
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // Data (Represented by fields)
 // Behavior (Represented by methods / functions)
