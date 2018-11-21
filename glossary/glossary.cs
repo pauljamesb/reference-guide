@@ -64,3 +64,11 @@
 // Method signature
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // This is identified by the method return type, name and types and numbers of it's parameters.
+
+
+
+
+
+// Integers
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// The default value of an integer is 0.
