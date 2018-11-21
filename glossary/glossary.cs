@@ -30,6 +30,7 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // This is a method of a class that is called when an instance of a class is created.
 // Purpose is to put an instance in an early state.
+// They don't have return types.
 
 
 // Object
