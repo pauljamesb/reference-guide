@@ -22,4 +22,5 @@
 
 // Naming conventions
 // +++++++++++++++++++++++++++++++++++++++++++++++++
-// For Classes use Pascal
+// For Classes use Pascal Case
+// Use Camel Case for the naming of methods 
