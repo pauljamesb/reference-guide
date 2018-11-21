@@ -82,3 +82,9 @@
 // Reference types
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // The default value of a reference type is null.
+
+
+
+// Lists
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// A generic list that takes a parameter: List<Param>.
