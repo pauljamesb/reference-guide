@@ -13,3 +13,17 @@ public Person Parse(string str)
 
 var person = new Person();
 var p = person.Parse("John");
+
+
+// But a better way would be to use a static class.
+// Same example above but with static applied.
+
+public static Person Parse(string str)
+{
+  var person = new Person();
+  person.Name = str;
+  
+  return person;
+}
+
+var p = Person.Parse("John");
