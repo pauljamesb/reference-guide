@@ -44,8 +44,14 @@
 // Use Camel Case for the naming of methods. 
 
 
+
 // Method overloading
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // Overloading means having a method of the same name but with different signatures.
 // Essentially that take different paremeters.
 
+
+
+// Method signature
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// This is identified by the method return type, name and types and numbers of it's parameters.
