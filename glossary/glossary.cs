@@ -42,3 +42,10 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // For Classes use Pascal Case.
 // Use Camel Case for the naming of methods. 
+
+
+// Method overloading
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// Overloading means having a method of the same name but with different signatures.
+// Essentially that take different paremeters.
+
