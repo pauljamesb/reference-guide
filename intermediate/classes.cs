@@ -12,4 +12,4 @@ public Person Parse(string str)
 }
 
 var person = new Person();
-person.Parse("John");
+var p = person.Parse("John");
