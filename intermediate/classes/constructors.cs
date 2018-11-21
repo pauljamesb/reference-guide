@@ -20,6 +20,7 @@ var customer = new Customer("John");
 
 // Example of Overloaded Constructors
 // Notice, in this version below there is no default constructor anymore.
+// But could have just by creating a blank constructor with no params.
 public class Customer 
 {
   public int Id;
