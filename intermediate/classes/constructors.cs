@@ -13,3 +13,6 @@ public class Customer
     this.Name = name;
   }
 }
+
+// With this values can be passed when the object is created.
+var customer = new Customer("John");
