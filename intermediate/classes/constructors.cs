@@ -40,6 +40,7 @@ public class Customer
 }
 
 // When a class has a list of objects List<Params>, the list should be initialised.
+// Make sure not over this method below, not easy to follow.
 // For example:
 public class Customer 
 {
@@ -53,13 +54,14 @@ public class Customer
   }
   
   public Customer(int id)
+    : this() // Calls the first constructor so that the List can be inherited.
   {
     this.Id = id;
   }
 
   public Customer(int id, string name)
+    : this(Id) // Calls the second, which has already called first with list and passes Id.
   {
-    this.Id = id;
     this.Name = name;
   }
 }
