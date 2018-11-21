@@ -2,7 +2,7 @@
 // +++++++++++++++++++++++++++++++++++++++++++++++
 // To avoid the need for multiple constructors.
 
-var person = new Person() 
+var person = new Person
 {
   FirstName = "Paul"
   LastName = "Browning"
