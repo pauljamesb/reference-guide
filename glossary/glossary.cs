@@ -80,6 +80,13 @@
 // The default value of a string is null.
 
 
+// "int?" argument passed to methods.
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+// This means that the value passed can be null or a value.
+// So null is OK, it won't cause exception.
+
+
+
 // Reference types
 // +++++++++++++++++++++++++++++++++++++++++++++++++
 // The default value of a reference type is null.
