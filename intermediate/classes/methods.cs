@@ -2,7 +2,11 @@
 // Params overloading example
 
 // This shows an array of ints.
-public void MyNewMethod(params int[] numbers)
+public class Calculator 
 {
-    // Do something here.
+    public int Add(params int[] numbers)
+    {
+    }
 }
+
+var results = Calculator.Add(1,2,3,4,5,6);
