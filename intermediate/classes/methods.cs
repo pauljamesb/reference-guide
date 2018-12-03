@@ -23,13 +23,23 @@ public class Point
         this.X = x;
         this.Y = y;
     }
+    
+    public void Move(int x, int y)
+    {
+        this.X = x;
+        this.y = Y;
+    }
+    
+    public void Move(Point newLocation)
+    {
+        this.X = newLocation.X;
+        this.Y = newLocation.Y;
+    }
+    
 }
 
-public void Move(int x, int y)
-{
-    this.X = x;
-    this.y = Y;
-}
+
+
 
 // The main here
 
