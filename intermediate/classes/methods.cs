@@ -52,13 +52,45 @@ public class Point
 
 
 
-// The main here
-var point = new Point(10, 20);
-point.Move(new Point(40, 60));
-Console.WriteLine(point.X, point.Y);
+// The main method code here
+public class Calculator
+{
+    public int Add(params int[] numbers)
+    {
+        var sum = 0;
+        foreach(var number in numbers)
+        {
+            sum += number;
+        }
+        
+        return sum;
+    }
+}
 
-point.Move(100, 200);
-Console.WriteLine(point.X, point.Y);
+
+// Needs a class like Program
+
+public class Program
+{
+    
+        static void UsePoints()
+        {
+            try
+            {  
+                var point = new Point(10, 20);
+                point.Move(new Point(40, 60));
+                Console.WriteLine(point.X, point.Y);
+
+                point.Move(100, 200);
+                Console.WriteLine(point.X, point.Y);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error occured");
+            }
+        }
+
+}
 
 
 
