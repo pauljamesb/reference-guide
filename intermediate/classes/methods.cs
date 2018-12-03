@@ -37,7 +37,17 @@ public class Point
         this.Y = newLocation.Y;
     }
     
+    // Or you could do:
+    public void Move(Point newLocation)
+    {
+        if (newLocation == null)
+            throw new ArgumentNullException("newLocation");
+        
+        Move(newLocation.X, newLocation.Y);
+    }    
 }
+
+// 
 
 
 
