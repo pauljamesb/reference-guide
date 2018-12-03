@@ -13,6 +13,7 @@ var results = Calculator.Add(1,2,3,4,5,6);
 
 
 // Methods cont..
+// Overloading
 public class Point
 {
     public int X;
@@ -42,5 +43,13 @@ public class Point
 
 
 // The main here
+var point = new Point(10, 20);
+point.Move(new Point(40, 60));
+Console.WriteLine(point.X, point.Y);
+
+point.Move(100, 200);
+Console.WriteLine(point.X, point.Y);
+
+
 
 
