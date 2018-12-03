@@ -73,6 +73,11 @@ public class Calculator
 public class Program
 {
     
+        // Main here
+        var calculatro = new Calculator();
+        Console.WriteLine(calculator.Add(1,2));
+        Console.WriteLine(calculator.Add(1,2,3));
+    
         static void UsePoints()
         {
             try
