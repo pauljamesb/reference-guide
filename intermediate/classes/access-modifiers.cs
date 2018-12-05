@@ -26,5 +26,25 @@ john.Name;
 // Inheritance
 // Polymorphism
 
+// Encapsulation continued
+// Example of full get and set, not shorthand
+
+// This happens behind the scenes of get set
+public class Person 
+{
+    private string Name;
+  
+    public void SetName(string name)
+    {
+      if (!String.IsNullOrEmpty(name))
+        this.Name = name;
+    }
+  
+    public string GetName()
+    {
+        return Name;
+    }
+}
+
 
 
