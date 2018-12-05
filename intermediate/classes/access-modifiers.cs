@@ -30,19 +30,22 @@ john.Name;
 // Example of full get and set, not shorthand
 
 // This happens behind the scenes of get set
+
+// Side note, very important, look how the private string is camel case and carries an underscore.
+
 public class Person 
 {
-    private string Name;
+    private string _name;
   
     public void SetName(string name)
     {
       if (!String.IsNullOrEmpty(name))
-        this.Name = name;
+        this._name = name;
     }
   
     public string GetName()
     {
-        return Name;
+        return _name;
     }
 }
 
