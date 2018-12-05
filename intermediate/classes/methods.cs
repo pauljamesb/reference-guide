@@ -98,5 +98,11 @@ public class Program
 }
 
 
+// Parse
+// If using .Parse you need a try catch method.
+// If using .TryParse you need to use the out modifier.
+// Watch following at 23.30 for more:
+// https://www.udemy.com/csharp-intermediate-classes-interfaces-and-oop/learn/v4/t/lecture/2484612?start=1260
+
 
 
