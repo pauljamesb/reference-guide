@@ -50,4 +50,40 @@ public class Person
 }
 
 
+// Working example 
+using System;
+
+namespace AccessModifiers
+{
+
+    public class Person
+    {
+        private DateTime _birthdate;
+
+        public void SerBirthdate(DateTime birthdate)
+        {
+            _birthdate = birthdate;
+        }
+
+        public DateTime GetBirthdate()
+        {
+            return _birthdate;
+        }
+
+    }
+
+
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            var person = new Person();
+            person.SerBirthdate(new DateTime(1982, 1, 1));
+            Console.WriteLine(person.GetBirthdate());
+        }
+    }
+}
+
+
+
 
