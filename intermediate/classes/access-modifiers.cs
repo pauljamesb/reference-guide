@@ -21,6 +21,7 @@ john.Name;
 // Three major concepts in OOP
 // Encapsulation / Info hiding
 // This helps to hide the detail from other classes of methods for example.
+// Getter/Setter for example.
 
 // Inheritance
 // Polymorphism
