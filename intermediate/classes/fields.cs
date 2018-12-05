@@ -20,3 +20,10 @@ public class Customer
 {
     List<Order> Orders = new List<Order>();
 }
+
+
+// Read-only Fields
+Public class Customer
+{
+    readonly List<Order> Orders = new List<Order>();
+}
