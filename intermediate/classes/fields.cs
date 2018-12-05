@@ -9,7 +9,7 @@ public class Customer
     
     public Customer()
     {
-        Orders
+        Orders = new List<Order>();
     }
 
 }
