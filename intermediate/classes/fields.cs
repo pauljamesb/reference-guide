@@ -23,6 +23,7 @@ public class Customer
 
 
 // Read-only Fields
+// This ensures there would only be one list where orders would be kept.
 Public class Customer
 {
     readonly List<Order> Orders = new List<Order>();
