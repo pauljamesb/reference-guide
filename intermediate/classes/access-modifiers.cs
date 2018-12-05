@@ -17,3 +17,11 @@ public class Customer
 var john = new Customer();
 john.Name;
 
+
+// Three major concepts in OOP
+// Encapsulation / Info hiding
+// Inheritance
+// Polymorphism
+
+
+
