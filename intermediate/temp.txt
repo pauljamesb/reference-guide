@@ -1,1 +1,11 @@
+Open Closed Principle (OCP)
 
+In object-oriented programming, the open/closed principle states “software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification”.
+
+
+
+https://github.com/chrisvasqm/csharp-intermediate
+
+
+
+http://porterwebsites.com/c-interfaces-dbmigrator/
